@@ -1,0 +1,30 @@
+/*Main CSS for the page*/
+html,body{
+    background-color: blue;
+    color: white;
+}
+
+div, button
+{
+    margin-right: 1em;
+    margin-top: 1em;
+}
+/*CSS to deal with the implementation of the notes*/
+.NotesInsideDiv
+{
+    background-color: white;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+}
+/*Buttons section*/
+.AquaButton, .PinkButton, .WhiteButton
+{
+    width: 20%;
+    height: 1.5em;
+}
+.AquaButton { background-color: aqua; }
+
+.PinkButton { background-color: pink; }
+
+.WhiteButton { background-color: white; }

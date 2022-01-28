@@ -1,0 +1,61 @@
+.userProfile td,th, .userRepo td, th{
+    border-style: solid;
+    border-color: darkblue;
+
+}
+.userProfile th, .userRepo th{
+    background-color: lightskyblue;
+    height: 50px;
+}
+
+.userProfile td, .userRepo td{
+    height: 35px
+}
+.userProfile{
+    padding-left: 4em;
+    width: 35%;
+}
+
+.userProfile, .userRepo{
+    float: left;
+}
+
+.myInput{
+    width: 40%;
+}
+
+.userRepo th{
+    margin-left: auto;
+    position: sticky;
+    top:0;
+}
+
+.userRepo{
+    width: 60%;
+    padding-left: 7em;
+}
+
+.search{
+    text-align: center;
+    padding: 2em;
+}
+
+#Images{
+    /*width: 250px;
+    height: 250px;*/
+    display: block;
+    height: 300px;
+    
+}
+
+#head{
+    text-align: center;
+    
+}
+body{
+    background-color: beige;
+}
+
+#Image{
+    display: block;
+}

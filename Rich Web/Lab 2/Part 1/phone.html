@@ -1,0 +1,68 @@
+<!-- Author: Omair Duadu
+Date: 07//11/2021
+Project: RICH WEB LAB2 PART 1  Phone Directory
+Description: 3 part program 1. inputing data with error checking
+             2.Searching through table 3.Create table and add to it with js-->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>Phone Directory</title>
+        <script src="phone.js"></script> 
+        <link rel="stylesheet" href="phone.css">
+    </head>
+<body>
+
+    <!--Header for site-->
+    <h1 class="center" >Phone Directory</h1>
+
+
+    <div class="center" id="addContact">
+
+        <form action="/action_page.php">
+
+            <!--Input fields for Name Mobile Email and button -->
+            <input type="text"  placeholder="Name"       id="name"   pattern="[A-Za-z\s]{2,20}"                       title="Less than or equal 20 characters" name="name">
+            <input type="text"  placeholder="Mobile No." id="mobile" pattern="^[0-9]+$"                          title="Equal 10 characters in length" name="mobile"> 
+            <input type="email" placeholder="Email"      id="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Less than 40 characters and correct format" name="email">
+            <!-- Button for onContact()  -->
+            <button type="submit" id="submit" onclick="addContact()">Add Contact</button>
+        </form>
+
+    </div>
+  
+    <div class="center" id="search">
+
+        <!--Search bar for phone numbers-->
+        <label for="fname">Search contact by Mobile No:</label>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    </div>
+
+    <div>
+
+        <h2 class="center">Contacts Summary</h2>
+    </div>
+    
+    <table class="table" id="myTable">
+        <tr>
+            <th>Name</th>
+            <th>Mobile No.</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>0891234567</td>
+            <td>johndoe@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mark O'Connell</td>
+            <td>0871234567</td>
+            <td>markoconnell@gmail.com</td>
+        </tr>
+    </table>
+    <br>
+
+    
+
+</body>
+</html> 

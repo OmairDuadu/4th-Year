@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Timer</title>
+        <link rel="stylesheet" type="text/css" href = "index.css"/>
+    </head>
+    <body>
+            <h2>Timer System</h2>
+            <div id="timer-input">
+                <div class = "timeinput">
+                    <input type = "number" class="timeinputarea" id = "hourInput" placeholder="Hour">
+                </div>
+                <div class="fullcolon">
+                    <input class="colonDisplay" value = ":" disabled>
+                </div>
+                <div class = "timeinput">
+                    <input type = "number" class="timeinputarea" id="minuteInput" placeholder="Minutes">
+                </div>
+                <div class="fullcolon">
+                    <input class="colonDisplay" value = ":" disabled>
+                </div>
+                <div class = "timeinput">
+                    <input type = "number" class="timeinputarea" id="secondInput" placeholder="Second">
+                </div>
+            </div>
+             <div id = "StartTimerSection">
+                <button id="StartTimer" onclick = "GetCreditialsForTimer()">
+                    <div id = "ButtonTextSection">
+                        <span id = "ButtonText">Start Countdown</span>
+                    </div>
+                </button>
+            </div>
+            <div id="DisplayTimeCountdown"></div>
+        <script src="https://npmcdn.com/@reactivex/rxjs@5.0.0-beta.3/dist/global/Rx.umd.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

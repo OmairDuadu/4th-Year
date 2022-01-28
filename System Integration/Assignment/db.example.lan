@@ -1,0 +1,14 @@
+$ORIGIN example.lan.
+$TTL 123
+@	IN SOA ns.example.lan. admin.example.lan. (
+	20211013
+	2d
+	15m
+	2w
+	1h
+)
+@	IN A	10.20.30.41
+ns	IN A	10.20.30.41
+www	IN CNAME example.lan.
+@	IN NS	ns.example.lan.
+41.30.20.10.in-addr,arpa. 6230	IN PTR	ns1.example.lan.

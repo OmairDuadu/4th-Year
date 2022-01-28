@@ -1,0 +1,11 @@
+$ORIGIN 41.30.20.10.in-addr.arpa.
+$TTL 123
+@	IN SOA ns.example.lan. admin.example.lan. (
+	20211013
+	2d
+	15m
+	2w
+	1h
+)
+@	IN NS	ns.example.lan.
+@	IN PTR	example.lan.

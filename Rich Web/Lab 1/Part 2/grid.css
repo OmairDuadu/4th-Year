@@ -1,0 +1,48 @@
+/* creating columns for outer grid */
+.FlexGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 75px;
+    ;
+}
+
+/* creating border for out grid and columns for inner grid*/
+.nested{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 35px;
+    padding: 1.25em;
+    border: 1px black solid;
+}
+
+/* creating border for inner grid */
+.nested > div{
+    border: 1px black solid;
+}
+
+
+/* outer and inner grid becomes 2x2 when screen is 720px or less*/
+@media only screen and (max-width: 720px){
+    .FlexGrid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .nested{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+/* outer and inner grid becomes 4x1 once screen is 360px or less */
+/* NOTE my screen doesn't go as small as 360 is so 500px works for me */
+@media only screen and (max-width: 500px){
+    .FlexGrid{
+        grid-template-columns: repeat(1,1fr) ;
+        grid-template-rows: repeat(4,1fr);
+    }
+    .nested{
+        grid-template-columns: repeat(1,1fr) ;
+        grid-template-rows: repeat(4,1fr);
+    }
+}

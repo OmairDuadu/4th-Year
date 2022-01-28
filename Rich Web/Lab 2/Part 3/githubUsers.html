@@ -1,0 +1,80 @@
+<!-- Author: Omair Duadu
+Date: 07/11/2021
+Project: Rich Web LAB 2 part 3 GITHUB API 
+Description: fetch User data and display it using asynchronous techniques-->
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>Github USERS</title>
+        <script src="githubUsers.js"></script> 
+        <link rel="stylesheet" href="githubUsers.css">
+        <style>
+            div {background-image: src="GitHub-Mark-120px-plus.png";}
+        </style>
+    </head>
+<body>
+
+    <!-- search bar functionality -->
+    <div class="search">
+        <!--Search bar for names-->        
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Username" title="Type in a name">
+        <button onclick="API()">Search</button>
+    </div>   
+          
+    <!-- User Repo table:
+    This is used to display info abuot the user's Profile
+    the github icons are only placeholders -->
+    <table class="userProfile">
+        <tr>
+            <td><p id="head">User Profile</p></td> 
+        </tr>
+        <tr>
+            <td><img src="GitHub-Mark-120px-plus.png" id="Images"></td> 
+        </tr>
+        <tr>
+            <td id="Name"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="Username"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="Email"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="Location"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="NumberOfGists"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+    </table>
+    
+    <!-- User Repo table:
+    this is used to display the repo name and description -->
+    <table class="userRepo">
+        <tr>
+            <td><p id="head">User Repos</p></td> 
+        </tr>
+        <tr>
+            <td id="repo1"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="repo2"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="repo3"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="repo4"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="repo5"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+        <tr>
+            <td id="repo6"><img src="GitHub-Mark-120px-plus.png" id="Image"></td> 
+        </tr>
+    </table>
+
+</body>
+</html>
