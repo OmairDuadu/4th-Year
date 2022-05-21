@@ -1,0 +1,2 @@
+Prefetch Directory is  C:\Users\omair\AppData\Local\Temp\Autopsy\ca1_disk_image_20220221_181326\Temp\RecentActivity\1-Autopsy_PF_DB.db3_0
+DB file is  C:\Users\omair\Desktop\Forensics\CA1_Disk_Image\ModuleOutput\prefetch\1-Autopsy_PF_DB.db3

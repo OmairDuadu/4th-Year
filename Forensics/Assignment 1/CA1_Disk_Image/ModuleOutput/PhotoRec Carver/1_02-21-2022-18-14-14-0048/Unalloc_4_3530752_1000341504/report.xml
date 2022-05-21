@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.1</version>
+    <build_environment>
+      <compiler>GCC 6.4, Cygwin 2009.0</compiler>
+      <library name='libext2fs' version='1.43.1'/>
+      <library name='libewf' version='20140608'/>
+      <library name='libjpeg' version='libjpeg-turbo-1.5.0'/>
+      <library name='libntfs' version='10:0:0'/>
+      <library name='zlib' version='1.2.11'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Windows</os_sysname>
+      <os_release>Windows 8 (9200)</os_release>
+      <os_version>Windows 8 (9200)</os_version>
+      <host>Omair-Duadu</host>
+      <arch>x86_64</arch>
+      <uid>197610</uid>
+      <start_time>2022-02-21T18:14:50+0000</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>C:\Users\omair\AppData\Local\Temp\Autopsy\ca1_disk_image_20220221_181326\Temp\PhotoRec Carver\1_02-21-2022-18-14-14-0048\Unalloc_4_3530752_1000341504</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>988229632</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='988229632'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0000000.apple</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='0' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000008.apple</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='4096' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000016.apple</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='8192' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000024.apple</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='12288' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000032.jpg</filename>
+    <filesize>6352702</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16384' len='6352896'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0013896.png</filename>
+    <filesize>931651</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='7114752' len='933888'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0015720_Microsoft_Word_Document2.pdf</filename>
+    <filesize>82271</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='8048640' len='86016'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0015888.apple</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='8134656' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0015896.apple</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='8138752' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020160.jpg</filename>
+    <filesize>394704</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10321920' len='397312'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0022984.apple</filename>
+    <filesize>1036288</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='11767808' len='1036288'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0025008.apple</filename>
+    <filesize>2379776</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='12804096' len='2379776'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0029656.apple</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='15183872' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0029664.jpg</filename>
+    <filesize>6758992</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='15187968' len='6762496'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0042872.jpg</filename>
+    <filesize>7270883</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='21950464' len='7274496'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0057200.jpg</filename>
+    <filesize>6185202</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='29286400' len='6189056'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0069288.jpg</filename>
+    <filesize>7092515</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='35475456' len='7094272'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0083144.c</filename>
+    <filesize>71</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='42569728' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0083152.jpg</filename>
+    <filesize>6681640</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='42573824' len='6684672'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0096208.apple</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='49258496' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0096216.png</filename>
+    <filesize>80253</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='49262592' len='81920'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

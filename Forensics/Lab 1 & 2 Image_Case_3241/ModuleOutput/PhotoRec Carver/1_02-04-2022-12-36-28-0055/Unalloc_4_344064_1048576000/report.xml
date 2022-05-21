@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.1</version>
+    <build_environment>
+      <compiler>GCC 6.4, Cygwin 2009.0</compiler>
+      <library name='libext2fs' version='1.43.1'/>
+      <library name='libewf' version='20140608'/>
+      <library name='libjpeg' version='libjpeg-turbo-1.5.0'/>
+      <library name='libntfs' version='10:0:0'/>
+      <library name='zlib' version='1.2.11'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Windows</os_sysname>
+      <os_release>Windows 8 (9200)</os_release>
+      <os_version>Windows 8 (9200)</os_version>
+      <host>Omair-Duadu</host>
+      <arch>x86_64</arch>
+      <uid>197610</uid>
+      <start_time>2022-02-04T12:37:07+0000</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>C:\Users\omair\AppData\Local\Temp\Autopsy\lab_1_&amp;_2_image_case_3241_20220204_123525\Temp\PhotoRec Carver\1_02-04-2022-12-36-28-0055\Unalloc_4_344064_1048576000</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>1013186560</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='1013186560'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0000000.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='0' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000032.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16384' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000064.plist</filename>
+    <filesize>348</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='32768' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000096.plist</filename>
+    <filesize>4012</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='49152' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000128.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='65536' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000192.sqlite</filename>
+    <filesize>720896</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='98304' len='720896'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0001600.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='819200' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002080.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1064960' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002112.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1081344' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002144.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1097728' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002176.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1114112' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002208.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1130496' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002240.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1146880' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002272.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1163264' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002304.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1179648' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002336.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1196032' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002368.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1212416' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002400.fat</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1228800' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002432.plist</filename>
+    <filesize>4012</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1245184' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0002912.apple</filename>
+    <filesize>114688</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1490944' len='114688'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003136.apple</filename>
+    <filesize>16384</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1605632' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003168.xlsx</filename>
+    <filesize>11016</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1622016' len='16384'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003200.apple</filename>
+    <filesize>32768</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1638400' len='32768'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003264.pdf</filename>
+    <filesize>1169303</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1671168' len='1179648'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0005568.jpg</filename>
+    <filesize>103682</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2850816' len='114688'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0005792.png</filename>
+    <filesize>64657</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2965504' len='65536'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0005920.docx</filename>
+    <filesize>130713</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='3031040' len='131072'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0006176_Mission_Statement.zip</filename>
+    <filesize>120466</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='3162112' len='131072'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0006464.jpg</filename>
+    <filesize>39408</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='3309568' len='49152'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0006560.jpg</filename>
+    <filesize>63407</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='3358720' len='65536'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0006688.jpg</filename>
+    <filesize>59451</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='3424256' len='65536'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0006816.apple</filename>
+    <filesize>1009696768</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='3489792' len='1009696768'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

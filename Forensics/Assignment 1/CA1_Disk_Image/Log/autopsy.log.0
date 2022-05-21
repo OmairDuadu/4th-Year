@@ -1,0 +1,84 @@
+2022-03-20 14:03:42.188 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2022-03-20 14:03:42.873 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2022-03-20 14:03:42.892 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2022-03-20 14:03:42.893 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2022-03-20 14:03:42.901 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2022-03-20 14:03:52.416 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2022-03-20 14:03:53.197 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.25.2 loaded in native mode
+2022-03-20 14:03:53.314 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened CA1_Disk_Image (ca1_disk_image_20220221_181326) in C:\Users\omair\Desktop\Forensics\CA1_Disk_Image as the current case
+2022-03-20 14:03:53.314 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Retrieving images for case: autopsy.db...
+2022-03-20 14:03:53.315 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening all filesystems for image: CA1_Disk_Image_2022.img...
+2022-03-20 14:03:54.032 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2022-03-20 14:03:55.397 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-20 14:03:56.67 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-20 14:03:57.778 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2022-03-20 14:05:04.457 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 14:05:08.793 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 14:26:39.355 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 14:26:46.623 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 18:09:58.173 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 19:07:37.782 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 19:26:03.399 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Blueprints.docx~RF2aede5d3.TMP.  It may be unsupported or corrupt: javax.imageio.IIOException: Error reading PNG metadata
+2022-03-20 19:26:22.332 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Blueprints.docx.  It may be unsupported or corrupt: javax.imageio.IIOException: Error reading PNG metadata
+2022-03-20 19:33:21.293 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Blueprints.docx.  It may be unsupported or corrupt: javax.imageio.IIOException: Error reading PNG metadata
+2022-03-20 19:33:26.604 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Blueprints.docx~RF2aede5d3.TMP.  It may be unsupported or corrupt: javax.imageio.IIOException: Error reading PNG metadata
+2022-03-20 19:34:09.554 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Blueprints.docx.  It may be unsupported or corrupt: javax.imageio.IIOException: Error reading PNG metadata
+2022-03-20 19:38:28.201 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Blueprints.docx~RF2aede5d3.TMP.  It may be unsupported or corrupt: javax.imageio.IIOException: Error reading PNG metadata
+2022-03-20 19:38:38.284 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Blueprints.docx.  It may be unsupported or corrupt: javax.imageio.IIOException: Error reading PNG metadata
+2022-03-20 19:38:41.503 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Blueprints.docx~RF2aede5d3.TMP.  It may be unsupported or corrupt: javax.imageio.IIOException: Error reading PNG metadata
+2022-03-20 20:08:50.567 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 20:10:15.923 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 20:16:41.618 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase lambda$readImage$0
+WARNING: ImageIO could not read /img_CA1_Disk_Image_2022.img/Holiday Pictures/Photo_7.jpg.  It may be unsupported or corrupt: javax.imageio.IIOException: Unsupported marker type 0x55
+2022-03-20 22:41:01.012 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Stopping Solr 8 server
+2022-03-20 22:41:01.042 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Setting Solr 8 directory: C:\Program Files\Autopsy-4.19.3\autopsy\solr
+2022-03-20 22:41:01.043 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Running Solr 8 command: [C:\Program Files\Autopsy-4.19.3\autopsy\solr\bin\autopsy-solr.cmd, stop, -k, jjk#09s, -p, 23232] from C:\Program Files\Autopsy-4.19.3\autopsy\solr
+2022-03-20 22:41:01.16 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Finished running Solr 8 command
+2022-03-20 22:41:01.163 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Waiting for Solr server to stop
+2022-03-20 22:41:02.778 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Finished stopping Solr server
+2022-03-20 22:41:02.778 org.sleuthkit.autopsy.core.Installer <init>
+INFO: core installer created
+2022-03-20 22:41:03.503 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case CA1_Disk_Image (ca1_disk_image_20220221_181326) in C:\Users\omair\Desktop\Forensics\CA1_Disk_Image
+2022-03-20 22:41:05.651 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case CA1_Disk_Image (ca1_disk_image_20220221_181326)
+2022-03-20 22:41:05.662 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2022-03-20 22:41:05.685 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case CA1_Disk_Image (ca1_disk_image_20220221_181326)

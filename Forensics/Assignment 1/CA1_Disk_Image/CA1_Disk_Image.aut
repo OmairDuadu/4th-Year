@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2022/02/21 18:13:26 (GMT)</CreatedDate>
+  <ModifiedDate>2022/02/21 18:13:27 (GMT)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.19.3</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.19.3</SavedByAutopsyVersion>
+  <Case>
+    <Name>ca1_disk_image_20220221_181326</Name>
+    <DisplayName>CA1_Disk_Image</DisplayName>
+    <Number>2022</Number>
+    <Examiner>Omair Duadu</Examiner>
+    <ExaminerPhone>0892148456</ExaminerPhone>
+    <ExaminerEmail>omairduadu@gmail.com</ExaminerEmail>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase/>
+</AutopsyCase>

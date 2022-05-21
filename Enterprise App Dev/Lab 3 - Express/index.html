@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colours</title>
+    <script src="/public/index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
+</head>
+
+
+<body >
+
+    <h3>Colour Selector</h3>
+
+    
+
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" data-toggle="pill" href="#show-colour">Show Colour</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#create-colour">Create Colour</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#edit-colour">Edit Colour</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#delete-colour">Delete Colour</a>  
+        </li>
+    </ul>
+    
+    
+    <div  class="tab-content">
+        <!-- Fetch specific colour elements -->
+        <div id="show-colour"class="tab-pane fade in active input-group">
+            <div class="form-control">
+                <label id="input-file-label" class="custom-file-label" type="number" for="input-file">Select Number</label>
+                <input id="input-number" type="number" class="custom-file-input" />
+                <button class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" type="button" onClick="getColour()"> Submit </button>
+            </div>
+        </div>
+        <!-- create new colour elements -->
+        <div id="create-colour"class="tab-pane fade input-group">
+            <div class="form-control">
+                <label id="input-file-label" class="custom-file-label" for="createName">Name</label>
+                <input id="create-name" class="custom-file-input" />
+                <label id="input-file-label" class="custom-file-label" for="createHex">Hex </label>
+                <input id="create-hex" class="custom-file-input" />
+                <button class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" type="button" onClick="createColour()"> Create </button>
+            </div>
+        </div>
+        <!-- edit colour elements -->
+        <div id="edit-colour"class="tab-pane fade input-group">
+            <div class="form-control">
+                <label id="input-file-label" class="custom-file-label" type="number" for="createName">Colour Id</label>
+                <input id="edit-Id" type="number" class="custom-file-input" />
+                <label id="input-file-label" class="custom-file-label" for="createHex">Hex</label>
+                <input id="edit-hex" class="custom-file-input" />
+                <label id="input-file-label" class="custom-file-label" for="createName">Name</label>
+                <input id="edit-name" class="custom-file-input" />
+                <button class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" type="button" onClick="editColour()"> Edit </button>
+            </div>
+        </div>
+        <!-- Delete colour elements -->
+        <div id="delete-colour"class="tab-pane fade input-group">
+            <div class="form-control">
+                <label id="input-file-label" class="custom-file-label" type="number" for="createName">Colour Id</label>
+                <input id="delete-Id" type="number" class="custom-file-input"/>
+                <button class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" type="button" onClick="deleteColour()"> Delete </button>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <br>
+    <!-- Display the Colour contetn received from the server -->
+    <div class="border border-5 border-light border-top-0 p-4">
+        <p class="text-primary fw-medium mb-2">Colour ID: </p>
+        <h5 class="lh-base mb-0" id="face_gender"></a>
+    </div>
+
+    <div class="border border-5 border-light border-top-0 p-4">
+        <p class="text-primary fw-medium mb-2">Hex String:</p>
+        <h5 class="lh-base mb-0" id="face_age"></a>
+    </div>
+
+    <div class="border border-5 border-light border-top-0 p-4">
+        <p class="text-primary fw-medium mb-2">RGB:</p>
+        <h5 class="lh-base mb-0" id="face_smile"></a>
+    </div>
+
+    <div class="border border-5 border-light border-top-0 p-4">
+        <p class="text-primary fw-medium mb-2">HSL:</p>
+        <h5 class="lh-base mb-0" id="face_eye_glasses"></a>
+    </div>
+
+    <div class="border border-5 border-light border-top-0 p-4">
+        <p class="text-primary fw-medium mb-2">Name:</p>
+        <h5 class="lh-base mb-0" id="face_sun_glasses"></a>
+    </div>
+
+    <div id="colourBack"class="border border-5 border-light border-top-0 p-4 " style="width: 300px;; height: 100px ">
+    </div>
+    
+    <label id="Delete-notify" class="custom-file-label" for="createName"></label>
+
+</body>
+</html>
+

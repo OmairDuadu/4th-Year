@@ -1,0 +1,47 @@
+Author: Omair Duadu
+Date: 17/04/2022
+Project: Face Me - Know Me, Facial Analysis Web Application
+Description: 
+This project aims to develop a web application that will be able to detect and distinguish human faces and then output data labels about the faces 
+while building and deploying this on the cloud. The project will examine different fields of technology, such as computer vision science and the cloud. 
+
+The web application will take in an image, then upload it to the cloud and run the facial recognition software to examine the image, and then return facial 
+attribute detection in pictures, including gender, age range, emotions, glasses, and facial hair. The application will be accessible to the user on the Internet.
+
+As well as this it will incorporate an educational and informative aspect to the benefit of the user.
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+=>  Template Name    : WooDY - Carpenter Website Template
+
+---------------------------------------------------------------------------------------------------------------------
+
+These are the required modules to run the application:
+
+            1.express
+            2.express-fileupload
+            3.axios
+            4.aws-sdk
+            5.body-parser
+            6.cors
+            7.dotenv
+            8.lodash
+            9.morgan
+            10.multer
+            11.nodemon
+            12.vanilla-require
+
+
+Run the below command to instll modules needed.
+Npm install express, express-fileupload, axios, aws-sdk, body-parser, cors, dotenv, lodash, morgan, multer, nodemon, vanilla-require --save
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+4. Organization and structure
+
+The index.html is in the root folder.
+All other resources are found in the public folder where they are organised in sub-directories. 

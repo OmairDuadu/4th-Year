@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2022/02/04 12:35:25 (GMT)</CreatedDate>
+  <ModifiedDate>2022/02/04 12:35:27 (GMT)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.19.3</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.19.3</SavedByAutopsyVersion>
+  <Case>
+    <Name>lab_1_&amp;_2_image_case_3241_20220204_123525</Name>
+    <DisplayName>Lab 1 &amp; 2 Image_Case_3241</DisplayName>
+    <Number>3241</Number>
+    <Examiner>Omair Duadu</Examiner>
+    <ExaminerPhone>0892148456</ExaminerPhone>
+    <ExaminerEmail>omairduadu@gmail.com</ExaminerEmail>
+    <CaseNotes>first Case</CaseNotes>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase/>
+</AutopsyCase>
